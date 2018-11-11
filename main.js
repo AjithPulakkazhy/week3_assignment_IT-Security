@@ -1,7 +1,7 @@
 function check(form)
 {
  
- if(form.userid.value == "subscribe" && form.pswrd.value == "dewclarke")
+ if(form.userid.value == "ajith" && form.pswrd.value == "12345")
   {
     alert('login successful')
   }
