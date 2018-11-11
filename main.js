@@ -1,7 +1,8 @@
+
 function check(form)
 {
  
- if(form.userid.value == "ajith" && form.pswrd.value == "12345")
+ if(form.userid.value == "ajith" && form.pswrd.value == "ajith")
   {
     alert('login successful')
   }
@@ -10,9 +11,14 @@ function check(form)
    alert("Wrong password")
   }
 }
-</script>
-<script language="javascript">
+
 function go(form)
 {
-document.write('Hello'+form.nickname.value);
+	alert(nickname.value);
+
+}
+function lettersOnly(input)
+{
+	 var regex = /[^a-z]/gi;
+	 input.value = input.value.replace(regex, "");
 }
